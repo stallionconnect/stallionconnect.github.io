@@ -267,9 +267,9 @@ a:hover { color: var(--green-600); }
 }
 
 .brand { flex: none; }
-.brand img { width: auto; height: 44px; }
+.brand img { width: auto; height: 46px; }
 @media (min-width: 768px) {
-  .brand img { height: 52px; }
+  .brand img { height: 58px; }
 }
 
 .site-nav { display: flex; align-items: center; gap: 20px; }
@@ -1165,7 +1165,7 @@ a:hover { color: var(--green-600); }
   .footer-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
-.footer-brand img { width: auto; height: 56px; margin-bottom: 20px; }
+.footer-brand img { width: auto; height: 76px; margin-bottom: 20px; }
 .footer-brand p { max-width: 36ch; }
 
 .footer-title { margin-bottom: 18px; font-size: 1rem; letter-spacing: 0; color: #fff; }

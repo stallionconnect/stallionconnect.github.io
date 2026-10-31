@@ -9,7 +9,7 @@
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Inter:wght@400;500;600;700&amp;family=Montserrat:wght@700;800&amp;family=Oswald:wght@500;600&amp;family=Outfit:wght@600;800&amp;family=Poppins:wght@700&amp;family=Sora:wght@600;700&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&amp;family=Inter:wght@400;500;600;700&amp;family=Montserrat:wght@600;700;800&amp;family=Oswald:wght@500;600&amp;family=Outfit:wght@600;800&amp;family=Poppins:wght@500;700&amp;family=Sora:wght@600;700&amp;display=swap">
   <style>
     :root {
       --ink: #0c1b36;
@@ -206,6 +206,9 @@
     /* Ring = 100 of 122 units tall = 0.56em (x-height); shifted down so the ring, not the mic, sits on the baseline */
     .stage .wm6 .o { display: inline-block; width: .717em; max-width: none; height: .683em; margin: 0 -.025em; transform: translateY(.123em); }
     .variants .wm6 { font-size: 11cqi; }
+    .wm6-lockup { display: grid; justify-items: start; }
+    .wm6-tag { margin: .5em 0 0 .15em; font: 500 3.3cqi/1 Poppins, sans-serif; letter-spacing: .01em; color: var(--n); opacity: .8; }
+    .variants .wm6-tag { font-size: 3.15cqi; }
 
     /* Comparison */
     .compare { margin: 48px 0 0; padding: 28px; background: #fff; border: 1px solid var(--line); border-radius: 22px; }
@@ -261,10 +264,11 @@
       </symbol>
       <symbol id="o1-logo" viewBox="0 0 400 120">
         <use href="#o1-icon" width="120" height="120"/>
-        <rect x="140" y="22" width="2" height="76" opacity=".3" style="fill:var(--n)"/>
-        <text x="162" y="56" font-family="Montserrat" font-weight="800" font-size="34" textLength="220" lengthAdjust="spacing" style="fill:var(--n)">STALLION</text>
-        <text x="162" y="94" font-family="Montserrat" font-weight="800" font-size="34" textLength="220" lengthAdjust="spacing" style="fill:var(--g)">CONNECT</text>
-        <text x="272" y="114" text-anchor="middle" font-family="Montserrat" font-weight="700" font-size="10.5" letter-spacing="7" style="fill:var(--n)">PVT LTD</text>
+        <rect x="140" y="22" width="2" height="92" opacity=".3" style="fill:var(--n)"/>
+        <text x="162" y="50" font-family="Montserrat" font-weight="800" font-size="34" textLength="220" lengthAdjust="spacing" style="fill:var(--n)">STALLION</text>
+        <text x="162" y="86" font-family="Montserrat" font-weight="800" font-size="34" textLength="220" lengthAdjust="spacing" style="fill:var(--g)">CONNECT</text>
+        <rect x="162" y="94" width="220" height="1.5" style="fill:var(--n)"/>
+        <text x="162" y="111" font-family="Montserrat" font-weight="600" font-size="12.5" textLength="220" lengthAdjust="spacing" style="fill:var(--n)">Where every connection counts</text>
       </symbol>
 
       <!-- Option 2: two-way S (inbound and outbound arrows) -->
@@ -277,7 +281,7 @@
       <symbol id="o2-logo" viewBox="0 0 470 120">
         <use href="#o2-icon" width="120" height="120"/>
         <text x="106" y="70" font-family="Sora" font-weight="700" font-size="36" letter-spacing="-0.5"><tspan style="fill:var(--n)">Stallion</tspan><tspan style="fill:var(--g)"> Connect</tspan></text>
-        <text x="108" y="96" font-family="Sora" font-weight="600" font-size="11" textLength="340" lengthAdjust="spacing" opacity=".75" style="fill:var(--n)">BPO · CALL CENTRE · BACK-OFFICE</text>
+        <text x="108" y="97" font-family="Sora" font-weight="600" font-size="14" opacity=".8" style="fill:var(--n)">Where every connection counts</text>
       </symbol>
 
       <!-- Option 3: conversation bubbles -->
@@ -289,8 +293,9 @@
       </symbol>
       <symbol id="o3-logo" viewBox="0 0 320 120">
         <use href="#o3-icon" width="120" height="120"/>
-        <text x="136" y="68" font-family="Outfit" font-weight="800" font-size="46" textLength="168" lengthAdjust="spacing" style="fill:var(--n)">Stallion</text>
-        <text x="138" y="94" font-family="Outfit" font-weight="600" font-size="15" textLength="166" lengthAdjust="spacing" style="fill:var(--g)">CONNECT</text>
+        <text x="136" y="62" font-family="Outfit" font-weight="800" font-size="46" textLength="168" lengthAdjust="spacing" style="fill:var(--n)">Stallion</text>
+        <text x="138" y="87" font-family="Outfit" font-weight="600" font-size="15" textLength="166" lengthAdjust="spacing" style="fill:var(--g)">CONNECT</text>
+        <text x="138" y="107" font-family="Outfit" font-weight="600" font-size="11.5" textLength="166" lengthAdjust="spacing" opacity=".8" style="fill:var(--n)">Where every connection counts</text>
       </symbol>
 
       <!-- Option 4: stallion with headset -->
@@ -305,8 +310,9 @@
       </symbol>
       <symbol id="o4-logo" viewBox="0 0 350 120">
         <use href="#o4-icon" width="120" height="120"/>
-        <text x="136" y="68" font-family="Oswald" font-weight="600" font-size="48" textLength="200" lengthAdjust="spacing" style="fill:var(--n)">STALLION</text>
-        <text x="138" y="98" font-family="Oswald" font-weight="500" font-size="22" textLength="198" lengthAdjust="spacing" style="fill:var(--g)">CONNECT</text>
+        <text x="136" y="60" font-family="Oswald" font-weight="600" font-size="48" textLength="200" lengthAdjust="spacing" style="fill:var(--n)">STALLION</text>
+        <text x="138" y="88" font-family="Oswald" font-weight="500" font-size="22" textLength="198" lengthAdjust="spacing" style="fill:var(--g)">CONNECT</text>
+        <text x="138" y="109" font-family="Oswald" font-weight="500" font-size="11" textLength="198" lengthAdjust="spacing" opacity=".8" style="fill:var(--n)">WHERE EVERY CONNECTION COUNTS</text>
       </symbol>
 
       <!-- Option 5: trust shield (vertical layout) -->
@@ -318,9 +324,9 @@
       <symbol id="o5-logo" viewBox="0 0 360 214">
         <use href="#o5-icon" x="120" width="120" height="120"/>
         <text x="180" y="164" text-anchor="middle" font-family="DM Serif Display" font-size="30" letter-spacing="1"><tspan style="fill:var(--n)">STALLION</tspan><tspan style="fill:var(--g)"> CONNECT</tspan></text>
-        <rect x="74" y="186" width="44" height="1.5" opacity=".5" style="fill:var(--n)"/>
-        <rect x="242" y="186" width="44" height="1.5" opacity=".5" style="fill:var(--n)"/>
-        <text x="180" y="191" text-anchor="middle" font-family="Inter" font-weight="600" font-size="10" letter-spacing="4" style="fill:var(--n)">PRIVATE LIMITED</text>
+        <rect x="26" y="188" width="38" height="1.5" opacity=".5" style="fill:var(--n)"/>
+        <rect x="296" y="188" width="38" height="1.5" opacity=".5" style="fill:var(--n)"/>
+        <text x="180" y="194" text-anchor="middle" font-family="DM Serif Display" font-style="italic" font-size="16" style="fill:var(--n)">Where every connection counts</text>
       </symbol>
 
       <!-- Option 6: headset "o". The ring (0–100) matches Poppins Bold's x-height and stroke;
@@ -346,13 +352,14 @@
 
   <main class="wrap">
     <section class="current" aria-labelledby="current-title">
-      <img src="assets/img/logo.png" alt="Current Stallion Connect logo" width="490" height="150">
+      <img src="assets/img/logo.png" alt="Current Stallion Connect logo" width="577" height="180">
       <div>
         <p class="label">Current logo</p>
         <h2 id="current-title">What we kept from it</h2>
         <ul class="kept">
           <li>The "S" and "C" initials</li>
           <li>The headset, for calls and customer support</li>
+          <li>The punch line: "Where every connection counts"</li>
           <li>Navy and green, now one of six colour choices</li>
         </ul>
       </div>
@@ -470,11 +477,17 @@
       <article class="option pal-e" id="option-6" data-pal-default="e">
         <div class="option-head"><span class="num">Option 6</span><h2>Headset Wordmark</h2></div>
         <div class="stage main light">
-          <div class="wm6" role="img" aria-label="Option 6 logo: stallion connect"><span class="n">stallion</span>&nbsp;<span class="g">c</span><svg class="o" viewBox="-14 0 128 122" aria-hidden="true"><use href="#o6-o" x="-14" width="128" height="122"/></svg><span class="g">nnect</span></div>
+          <div class="wm6-lockup" role="img" aria-label="Option 6 logo: stallion connect, where every connection counts">
+            <div class="wm6"><span class="n">stallion</span>&nbsp;<span class="g">c</span><svg class="o" viewBox="-14 0 128 122" aria-hidden="true"><use href="#o6-o" x="-14" width="128" height="122"/></svg><span class="g">nnect</span></div>
+            <p class="wm6-tag">Where every connection counts</p>
+          </div>
         </div>
         <div class="variants">
           <div class="stage dark">
-            <div class="wm6" aria-hidden="true"><span class="n">stallion</span>&nbsp;<span class="g">c</span><svg class="o" viewBox="-14 0 128 122"><use href="#o6-o" x="-14" width="128" height="122"/></svg><span class="g">nnect</span></div>
+            <div class="wm6-lockup" aria-hidden="true">
+              <div class="wm6"><span class="n">stallion</span>&nbsp;<span class="g">c</span><svg class="o" viewBox="-14 0 128 122"><use href="#o6-o" x="-14" width="128" height="122"/></svg><span class="g">nnect</span></div>
+              <p class="wm6-tag">Where every connection counts</p>
+            </div>
           </div>
           <div class="icons light">
             <div class="icon-demo"><div class="tile app"><svg viewBox="0 0 120 120"><use href="#o6-icon" width="120" height="120"/></svg></div>App</div>
@@ -510,7 +523,6 @@
         <li>Which option do you like most?<span>A first and second choice is even better, for example "Option 3, then Option 1".</span></li>
         <li>Which colours do you like?<span>Use the palette letter, for example "Option 3 in colours C", or say if you'd rather keep the current navy and green.</span></li>
         <li>What would you change?<span>Font, icon, spacing: anything that doesn't feel right.</span></li>
-        <li>Should "Pvt Ltd" appear in the logo?<span>Or only on letterheads and documents.</span></li>
         <li>Would you like to combine options?<span>For example the icon from one option with the text style of another.</span></li>
       </ol>
     </section>

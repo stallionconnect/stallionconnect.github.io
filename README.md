@@ -1,6 +1,6 @@
 # Stallion Connect Pvt Ltd — Website
 
-Company website for **Stallion Connect Pvt Ltd**: call centre, BPO, sales, customer support, recruitment and back-office services.
+Company website for **Stallion Connect Pvt Ltd** (*Where every connection counts*): call centre, BPO, sales, customer support, recruitment and back-office services.
 
 Live site: https://connectstallion.github.io
 
@@ -31,4 +31,4 @@ then visit http://localhost:5500.
 
 - **Forms** run in demo mode and send nothing. Set `FORM_ENDPOINT` in `assets/js/main.js` (for example a Formspree form URL) to receive enquiries and job applications by email.
 - **Placeholders** are marked `TODO` in the HTML: office address, phone number, working hours, social media links, the "24×7" figure, careers perks and job openings.
-- **Logo** is a demo version. Replace the files in `assets/img/` when the final logo is ready.
+- **Logo** files in `assets/img/` (header `logo.png`, footer `logo-white.png`, icons and `og-image.jpg`) are made from the client's logo with the punch line. Regenerate them if the logo changes.
