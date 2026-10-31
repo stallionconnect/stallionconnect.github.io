@@ -18,7 +18,7 @@
   --green-100: #e4f4e8;
 
   /* Neutrals */
-  --ink: #0c1b36;
+  --ink: #01337a; /* headings and strong text use the brand navy */
   --text: #33415c;
   --muted: #5b6a85;
   --line: #e2e8f2;
