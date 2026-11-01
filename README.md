@@ -2,7 +2,7 @@
 
 Company website for **Stallion Connect Pvt Ltd** (*Where every connection counts*): call centre, BPO, sales, customer support, recruitment and back-office services.
 
-Live site: https://connectstallion.github.io
+Live site: https://stallionconnect.github.io
 
 ## Pages
 
